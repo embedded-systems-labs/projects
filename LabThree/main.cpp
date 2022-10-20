@@ -13,4 +13,3 @@ int main()
         PWM = Ain;
     }
 }
-
