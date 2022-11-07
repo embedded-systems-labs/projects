@@ -11,10 +11,10 @@ int main()
     DigitalOut out4 (D5);
     PwmOut ENA (D10);
     PwmOut ENB (D11);
-    ENA.period(0.5);
-    ENA = 0.25;
-    ENB.period(0.5);
-    ENB = 0.1;
+    ENA.period(0.9);
+    ENA = 0.9;
+    ENB.period(0.9);
+    ENB = 0.9;
 
     while (true) {
         out1 = 1; //left motor
